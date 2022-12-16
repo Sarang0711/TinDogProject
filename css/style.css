@@ -1,0 +1,170 @@
+body {
+    font-family:"Montserrat-Black";
+
+}
+#title {
+    background-color: #f37487;
+    color: #fff;
+}
+h1 {    
+    font-weight: bold;
+    size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+.iphone-img {
+    transform:rotate(20deg);
+    width: 25%;
+    padding: 2rem;
+    position: absolute;
+    right: 20%;
+}
+
+
+/* Navbar */
+
+.navbar-brand { 
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+}
+.navbar {
+    padding-bottom: 0, 4rem 0;
+}
+.nav-item {
+    padding: 0 1rem;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.btn {
+    margin: 5% 2% 5% 0;
+}
+
+/* Features */
+
+#features {
+    margin: 0% 5% 10% 5%;
+    padding-top: 10%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1;          No need to give z-index because it comes after the image so it
+                            will be on the top by default  */ 
+    
+}
+
+h3 {
+    font-family: Montserrat;
+    font-weight:bolder;
+    font-size: 1.5rem;
+}
+
+.featureDescription {
+    color: #7b7373;
+}
+
+.Icons {
+    margin-bottom: 5%;
+    color:#e86e81;
+    
+}
+.Icons:hover {
+    color:#d2475c;
+}
+
+.features-box {
+    text-align: center;
+    padding: 5%;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ff7070;
+    color:#fff;
+}
+.testimonial-img {
+    width: 10%;
+    border-radius: 100px;
+    margin: 2%;
+
+}
+.testimonial-text{
+    font-family: Montserrat;
+    font-weight: bolder;
+
+}
+.carousel-item {
+    padding: 5% 10%;
+
+}
+#press {
+    background-color: #ff7070;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.press-img {
+    padding: 3%;
+    width: 20%;
+}
+
+/* Pricing section */
+#pricing {
+    padding:10%;
+}
+
+.pricing-card {
+    padding: 2% 3%;
+    text-align: center;
+}
+
+.card-header {
+    font-weight: 5000;
+    
+}
+
+@media (max-width:990px) {
+    h1 {
+        text-align: center;
+    }
+    .iphone-img {
+        transform: rotate(0);
+        position: static;
+        width: 50%;
+    }
+} 
+
+/* call to action */
+
+h3 {
+    font-family: Montserrat-Black;
+    color: white;
+    font-weight: bolder;
+    font-size: 45px;
+    margin: 0 7%;
+}
+#cta {
+    background-color: #f37487;
+    padding: 5% ;
+    text-align: center;
+}
+
+/* footer */
+#footer {
+    padding:5%;
+    background-color: #fff;
+    text-align: center;
+}
+.contact-link {
+    padding: 1.5%;
+    text-decoration: none;
+}
+.contact-link {
+    color: rgb(58, 52, 52);
+}
+.featureDescription {
+    color: rgb(88, 88, 88);
+    font-size: 80%;
+}
