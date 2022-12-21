@@ -1,20 +1,36 @@
 body {
     font-family:"Montserrat-Black";
+    text-align: center;
 
+}
+
+h1, h2, h3 {
+    font-family:"Montserrat-Bold";
+
+}
+
+.container-fluid {
+    padding: 7% 15%;
 }
 #title {
     background-color: #f37487;
     color: #fff;
+    text-align: left;
+
 }
-h1 {    
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+.main-heading {    
     font-weight: bold;
     size: 3rem;
     line-height: 1.5;
 }
 
-.container-fluid {
-    padding: 3% 15% 7%;
-}
+
+
+
 .iphone-img {
     transform:rotate(20deg);
     width: 25%;
@@ -47,7 +63,6 @@ h1 {
 
 #features {
     margin: 0% 5% 10% 5%;
-    padding-top: 10%;
     background-color: #fff;
     position: relative;
     /* z-index: 1;          No need to give z-index because it comes after the image so it
@@ -55,10 +70,10 @@ h1 {
     
 }
 
-h3 {
-    font-family: Montserrat;
+.feature-heading {
     font-weight:bolder;
     font-size: 1.5rem;
+    color:rgb(58, 52, 52);
 }
 
 .featureDescription {
@@ -75,7 +90,6 @@ h3 {
 }
 
 .features-box {
-    text-align: center;
     padding: 5%;
 }
 
@@ -96,13 +110,9 @@ h3 {
     font-weight: bolder;
 
 }
-.carousel-item {
-    padding: 5% 10%;
 
-}
 #press {
     background-color: #ff7070;
-    text-align: center;
     padding-bottom: 5%;
 }
 .press-img {
@@ -117,7 +127,6 @@ h3 {
 
 .pricing-card {
     padding: 2% 3%;
-    text-align: center;
 }
 
 .card-header {
@@ -138,8 +147,7 @@ h3 {
 
 /* call to action */
 
-h3 {
-    font-family: Montserrat-Black;
+.cta-heading{
     color: white;
     font-weight: bolder;
     font-size: 45px;
@@ -147,15 +155,11 @@ h3 {
 }
 #cta {
     background-color: #f37487;
-    padding: 5% ;
-    text-align: center;
 }
 
 /* footer */
 #footer {
-    padding:5%;
     background-color: #fff;
-    text-align: center;
 }
 .contact-link {
     padding: 1.5%;
